@@ -1,15 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,900&family=Zilla+Slab:wght@300;400;700&display=swap");
+
 body {
   margin: 0 auto;
 }
 
 body * {
   box-sizing: border-box;
-  border: 1px solid red;
+  font-family: "Zilla Slab", serif;
+  color: antiquewhite;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 .wrapper {
   height: 100vh;
-  background: hotpink;
 }
 
 .primary-nav {
@@ -40,6 +51,7 @@ body * {
 .article-main {
   background: rgb(44, 44, 44);
   min-height: 300px;
+  font-weight: 900;
 }
 
 .sub-article {
